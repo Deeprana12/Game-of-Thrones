@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Shippori+Mincho+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;  
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.footer{
+	padding: 100px 20px 20px;
+	background-image: url(footer.jpg);
+	columns: #fff;
+}
+.footer h4{
+	font-size: 30px;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	color: white;
+}
+.footer p{
+	font-size: 20px;
+	text-align: justify;
+	padding-right: 35px;
+	color: white;
+	font-weight: bold;
+}
+.footer .row .fa{
+	padding-right: 20px;
+	font-size: 15px;
+
+}
+.footer hr{
+	margin-top: 10px;
+	background: #efefef;
+}
+.fa-heart{
+	margin: 0 5px;
+	color: #f44336;
+}
+.footer .copyright{
+	text-align: center;
+}
+
+
+
+
+
+
+
+/* Media Query for tablet */
+@media only screen and (min-width: 700px){
+    .cta{
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+    .section-title{
+        font-size: 5rem;
+    }
+
+    #hero h1{
+        font-size: 6rem;
+    }
+
+    /* Services section */
+    #services .service-bottom .service-item{
+        flex-basis: 40%;
+        margin: 2.5%;
+    }
+
+    
+
+    
+
+    
+
+    /* Media Query for Desktop */
+    @media screen and (min-width: 1200px){
+        /* Header */
+        #header .hamburger{
+            display: none;
+        }
+        #header .nav-list ul{
+            position: initial;
+            display: block;
+            height: auto;
+            width: fit-content;
+            background-color: transparent;
+        }
+        #header .nav-list ul li{
+            display: inline-block;
+        }
+        #header .nav-list ul li a{
+            font-size: 1.8rem;
+        }
+        #header .nav-list ul a:after{
+            display: none;
+        }
+
+        #services .service-bottom .service-item{
+            flex-basis: 20%;
+            margin: 1.5%;
+        }
+    }   
+}
